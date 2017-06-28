@@ -38,7 +38,7 @@ export var hlsDefaultConfig = {
       nudgeOffset: 0.1,                       // used by stream-controller
       nudgeMaxRetry : 3,                      // used by stream-controller
       maxFragLookUpTolerance: 0.25,           // used by stream-controller
-      liveSyncDurationCount:3,                // used by stream-controller
+      liveSyncDurationCount:1,                // used by stream-controller
       liveMaxLatencyDurationCount: Infinity,  // used by stream-controller
       liveSyncDuration: undefined,            // used by stream-controller
       liveMaxLatencyDuration: undefined,      // used by stream-controller
@@ -50,7 +50,7 @@ export var hlsDefaultConfig = {
       manifestLoadingRetryDelay: 1000,        // used by playlist-loader
       manifestLoadingMaxRetryTimeout: 64000,  // used by playlist-loader
       startLevel: undefined,                  // used by level-controller
-      levelLoadingTimeOut: 10000,             // used by playlist-loader
+      levelLoadingTimeOut: 1000,             // used by playlist-loader
       levelLoadingMaxRetry: 4,                // used by playlist-loader
       levelLoadingRetryDelay: 1000,           // used by playlist-loader
       levelLoadingMaxRetryTimeout: 64000,     // used by playlist-loader
